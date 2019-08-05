@@ -1,0 +1,46 @@
+{
+  "name": "@magic/tags",
+  "version": "0.0.1",
+  "author": "Wizards & Witches",
+  "description": "exports arrays of all html and svg tags.",
+  "license": "AGPL-3.0",
+  "homepage": "https://magic.github.io/core",
+  "scripts": {
+    "start": "t -p",
+    "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve --watch src",
+    "clean": "magic clean",
+    "serve": "magic serve",
+    "dev": "magic dev --watch src",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docs example config.js",
+    "calls": "calls"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic/tags.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic/tags/issues"
+  },
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "type": "module",
+  "devDependencies": {
+    "@magic/test": "0.1.11"
+  },
+  "keywords": [
+    "html",
+    "tags",
+    "magic"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
