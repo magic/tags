@@ -4,7 +4,7 @@
   "author": "Wizards & Witches",
   "description": "exports arrays of all html and svg tags.",
   "license": "AGPL-3.0",
-  "homepage": "https://magic.github.io/core",
+  "homepage": "https://magic.github.io/tags",
   "scripts": {
     "start": "t -p",
     "build": "NODE_ENV=production magic build",
@@ -30,7 +30,7 @@
   "module": "src/index.mjs",
   "type": "module",
   "devDependencies": {
-    "@magic/test": "0.1.12"
+    "@magic/test": "0.1.21"
   },
   "keywords": [
     "html",
