@@ -211,7 +211,8 @@ export const bodyTags = [
   // Represents an unordered list
   'ul',
   // Represents a variable
-  'var',
+  // Breaks the build (of course)
+  //~ 'var',
   // Represents a video. The video element is new in HTML5.
   'video',
   // Represents a line break 'i',opportunity'/i', for very long words and strings of text with no spaces. This tag is new in HTML5.
