@@ -11,8 +11,8 @@ exports arrays of html and svg elements.
 
 [npm-image]: https://img.shields.io/npm/v/@magic/tags.svg
 [npm-url]: https://www.npmjs.com/package/@magic/tags
-[travis-image]: https://api.travis-ci.org/magic/tags.svg?branch=master
-[travis-url]: https://travis-ci.org/magic/tags
+[travis-image]: https://img.shields.io/travis/com/magic/tags/master
+[travis-url]: https://travis-ci.com/magic/tags
 [appveyor-image]: https://img.shields.io/appveyor/ci/magic/tags/master.svg
 [appveyor-url]: https://ci.appveyor.com/project/magic/tags/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic/tags/badge.svg
