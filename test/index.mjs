@@ -2,7 +2,8 @@ import { is } from '@magic/test'
 import { bodyTags, headTags, svgTags, tags } from '../src/index.mjs'
 
 const headTagCount = 6
-const bodyTagCount = 105
+// -1 for <var>
+const bodyTagCount = 105 - 1
 const svgTagCount = 73
 const tagCount = headTagCount + bodyTagCount + svgTagCount
 
