@@ -248,7 +248,8 @@ export const svgTags = [
   // The <clipPath> SVG element defines a clipping path. A clipping path is used/referenced using the clip-path property.
   'clipPath',
   // The <color-profile> element allows describing the color profile used for the image.
-  'color-profile',
+  // DOES NOT CONFORM TO HTML ELEMENT NAMES. DISABLED
+  // 'color-profile',
   // The <defs> element is used to store graphical objects that will be used at a later time. Objects created inside a <defs> element are not rendered directly. To display them you have to reference them (with a <use> element for example).
   'defs',
   // Each container element or graphics element in an SVG drawing can supply a description string using the <desc> element where the description is text-only.
@@ -362,7 +363,8 @@ export const svgTags = [
   // The svg element is a container that defines a new coordinate system and viewport. It is used as the outermost element of any SVG document but it can also be used to embed a SVG fragment inside any SVG or HTML document.
   'svg',
   // The <switch> SVG element evaluates the requiredFeatures, requiredExtensions and systemLanguage attributes on its direct child elements in order, and then processes and renders the first child for which these attributes evaluate to true. All others will be bypassed and therefore not rendered. If the child element is a container element such as a <g>, then the entire subtree is either processed/rendered or bypassed/not rendered.
-  'switch',
+  // Object.switch breaks javascript
+  // 'switch',
   // The <symbol> element is used to define graphical template objects which can be instantiated by a <use> element.
   'symbol',
   // The SVG <text> element defines a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, just like any other SVG graphics element.
