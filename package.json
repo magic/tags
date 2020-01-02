@@ -30,7 +30,7 @@
   "module": "src/index.mjs",
   "type": "module",
   "devDependencies": {
-    "@magic/test": "0.1.24"
+    "@magic/test": "0.1.25"
   },
   "keywords": [
     "html",
