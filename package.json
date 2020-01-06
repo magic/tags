@@ -19,6 +19,10 @@
   "files": [
     "src"
   ],
+  "engines": {
+    "node": ">=13.5.0"
+  },
+  "engineStrict": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/magic/tags.git"
@@ -27,10 +31,9 @@
     "url": "https://github.com/magic/tags/issues"
   },
   "main": "src/index.mjs",
-  "module": "src/index.mjs",
-  "type": "module",
   "devDependencies": {
-    "@magic/test": "0.1.25"
+    "@magic/format": "0.0.3",
+    "@magic/test": "0.1.28"
   },
   "keywords": [
     "html",
