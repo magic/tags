@@ -1,6 +1,6 @@
 {
   "name": "@magic/tags",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Wizards & Witches",
   "description": "exports arrays of all html and svg tags.",
   "license": "AGPL-3.0",
