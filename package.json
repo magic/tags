@@ -33,7 +33,7 @@
   "main": "src/index.mjs",
   "devDependencies": {
     "@magic/format": "0.0.8",
-    "@magic/test": "0.1.41"
+    "@magic/test": "0.1.42"
   },
   "keywords": [
     "html",
