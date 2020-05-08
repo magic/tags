@@ -50,5 +50,8 @@ remove color-profile and switch tags from svg
 ##### 0.0.3
 required node version is >= 13.5.0
 
-##### 0.0.4 - unreleased
+##### 0.0.4
+bump required node version to 14.2.0
+
+##### 0.0.5 - unreleased
 ...
