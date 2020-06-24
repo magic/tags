@@ -45,5 +45,8 @@
       "name": "jascha ehrenreich",
       "github": "jaeh"
     }
-  ]
+  ],
+  "dependencies": {
+    "@magic-modules/no-spy": "0.0.1"
+  }
 }
