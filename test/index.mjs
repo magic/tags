@@ -5,7 +5,7 @@ const headTagCount = 6
 // -1 for <var>
 const bodyTagCount = 105 - 1
 // two svg tags are disabled - color-profile and switch
-const svgTagCount = 73 - 2
+const svgTagCount = 74 - 2
 const tagCount = headTagCount + bodyTagCount + svgTagCount
 
 export default [
