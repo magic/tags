@@ -342,6 +342,8 @@ export const svgTags = [
   'path',
   // The <pattern> element defines a graphics object which can be redrawn at repeated x and y-coordinate intervals (&quot;tiled&quot;) to cover an area.
   'pattern',
+  // The HTML <picture> element contains zero or more <source> elements and one element to offer alternative versions of an image for different display/device scenarios.
+  'picture',
   // The <polygon> element defines a closed shape consisting of a set of connected straight line segments. The last point is connected to the first point. For open shapes see the&nbsp;<polyline> element.
   'polygon',
   // The <polyline> SVG element is an SVG basic shape that creates straight lines connecting several points. Typically a polyline is used to create open shapes as the last point doesn't have to be connected to the first point. For closed shapes see the <polygon> element.
