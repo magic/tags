@@ -59,5 +59,9 @@ bump required node version to 14.15.4
 ##### 0.0.6
 add <picture> element
 
-##### 0.0.7 - unreleased
+##### 0.0.7
+* update @magic/test
+* add type: module to package.json
+
+##### 0.0.8 - unreleased
 ...
