@@ -1,9 +1,7 @@
 export const state = {
   title: '@magic/tags',
 
-  description: [
-    'all html tags in an array.',
-  ],
+  description: ['all html tags in an array.'],
 
   logotext: '@magic/tags',
 
