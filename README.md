@@ -66,5 +66,8 @@ add <picture> element
 ##### 0.0.8
 update dependencies
 
-##### 0.0.9 - unreleased
+##### 0.0.9
+update dependencies
+
+##### 0.0.10 - unreleased
 ...
