@@ -1,15 +1,15 @@
-export const View = () => div([
-  div({ id: 'installation' }, [
-    h2('Installation'),
+export const View = () =>
+  div([
+    div({ id: 'installation' }, [
+      h2('Installation'),
 
-    Pre(`npm i --save-dev --save-exact @magic/test`),
+      Pre(`npm i --save-dev --save-exact @magic/test`),
+    ]),
 
-  ]),
+    div({ id: 'usage' }, [
+      h2('Usage'),
 
-  div({ id: 'usage' }, [
-    h2('Usage'),
-
-    Pre(`
+      Pre(`
 import tags, { bodyTags, headTags, svgTags } from '@magic/tags'
 // tags includes all tags
 // bodyTags includes all tags that can live only in the <body>
@@ -17,8 +17,7 @@ import tags, { bodyTags, headTags, svgTags } from '@magic/tags'
 // svgTags includes all valid svg tags
 `),
 
-
-    Pre(`
+      Pre(`
 // bodyTags
 
 // Represents a hyperlink (the link that a user clicks on to go to another web page or document).
@@ -402,11 +401,16 @@ import tags, { bodyTags, headTags, svgTags } from '@magic/tags'
 'view'
 `),
 
-    h2('Sources'),
-    p('html elements list and docs extracted from'),
-    p(Link({ to: 'https://www.html.am/tags/', text: 'html.am' })),
+      h2('Sources'),
+      p('html elements list and docs extracted from'),
+      p(Link({ to: 'https://www.html.am/tags/', text: 'html.am' })),
 
-    p('svg element list and docs extracted from'),
-    p(Link({ to: 'https://developer.mozilla.org/en-US/docs/Web/SVG/Element', text: 'Mozilla Developer Docs' })),
-  ]),
-])
+      p('svg element list and docs extracted from'),
+      p(
+        Link({
+          to: 'https://developer.mozilla.org/en-US/docs/Web/SVG/Element',
+          text: 'Mozilla Developer Docs',
+        }),
+      ),
+    ]),
+  ])
