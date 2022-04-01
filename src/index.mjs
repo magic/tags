@@ -4,6 +4,22 @@
 // svg element list and docs extracted from
 // https://developer.mozilla.org/en-US/docs/Web/SVG/Element
 
+export const selfClosing = [
+  'area', //  - HTML area tag defines an area in an image based on coordinates which then accepts an URL and become a clickable area behaving like a hyperlink
+  'base', //  - It defines the base URL for all the relative URLs in the document
+  'br', //  - br is used to create a line break
+  'col', //  - It defines a column in a table to define a common style or property of that column
+  'embed', //  - It is used to embed external content on the webpage
+  'hr', //  - It creates a horizontal line
+  'img', //  - It is used to define an image
+  'link', //  - It is mostly used to add external stylesheets to the HTML document
+  'meta', //  - It is used to give metadata to the webpage
+  'param', //  - It defines parameter to the object
+  'source', //  - It is used to give multiple media of resources for audio, video, and pictures
+  'track', //  - It is used in media files to provide times text tracks
+  'wbr', // - It provides a word break position in a paragraph for the browsers
+]
+
 export const bodyTags = [
   // Represents a hyperlink (the link that a user clicks on to go to another web page or document).
   'a',
