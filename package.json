@@ -38,8 +38,8 @@
     "@magic-modules/pre": "0.0.11",
     "@magic-themes/docs": "0.0.14",
     "@magic/core": "0.0.149",
-    "@magic/format": "0.0.50",
-    "@magic/test": "0.2.15"
+    "@magic/format": "0.0.51",
+    "@magic/test": "0.2.16"
   },
   "keywords": [
     "html",
