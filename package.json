@@ -8,7 +8,9 @@
   "type": "module",
   "scripts": {
     "start": "t -p",
-    "build": "NODE_ENV=production magic build",
+    "build": "npm run build:docs && npm run test && tsc && npm run format",
+    "build:docs": "NODE_ENV=production magic build",
+    "prepublishOnly": "npm run build",
     "prod": "NODE_ENV=production magic build serve --watch src",
     "clean": "magic clean",
     "serve": "magic serve",
