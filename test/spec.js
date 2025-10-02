@@ -1,15 +1,12 @@
 import { version } from '@magic/test'
 
-import { tags } from '../src/index.js'
+import { tags, bodyTags, headTags, svgTags } from '../src/index.js'
 
 const spec = {
-  bump: 'fn',
-  isBigger: 'fn',
-  isSemver: 'fn',
-  isSmaller: 'fn',
-  parse: 'fn',
-  serialize: 'fn',
-  stringify: 'fn',
+  tags: 'array',
+  bodyTags: 'array',
+  headTags: 'array',
+  svgTags: 'array',
 }
 
-export default version(tags, spec)
+export default version({ tags, bodyTags, headTags, svgTags }, spec)
