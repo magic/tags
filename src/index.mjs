@@ -4,7 +4,7 @@
 // svg element list and docs extracted from
 // https://developer.mozilla.org/en-US/docs/Web/SVG/Element
 
-export const selfClosing = [
+export const selfClosing = /** @type {const} */ ([
   'area', //  - HTML area tag defines an area in an image based on coordinates which then accepts an URL and become a clickable area behaving like a hyperlink
   'base', //  - It defines the base URL for all the relative URLs in the document
   'br', //  - br is used to create a line break
@@ -19,9 +19,9 @@ export const selfClosing = [
   'source', //  - It is used to give multiple media of resources for audio, video, and pictures
   'track', //  - It is used in media files to provide times text tracks
   'wbr', // - It provides a word break position in a paragraph for the browsers
-]
+])
 
-export const bodyTags = [
+export const bodyTags = /** @type {const} */ ([
   // Represents a hyperlink (the link that a user clicks on to go to another web page or document).
   'a',
   // Represents an abbreviation
@@ -247,9 +247,9 @@ export const bodyTags = [
   'video',
   // Represents a line break 'i',opportunity'/i', for very long words and strings of text with no spaces. This tag is new in HTML5.
   'wbr',
-]
+])
 
-export const headTags = [
+export const headTags = /** @type {const} */ ([
   // Represents a base URL for all the links in a page
   'base',
   // Represents information about the document
@@ -262,9 +262,9 @@ export const headTags = [
   'meta',
   // Represents the document title
   'title',
-]
+])
 
-export const svgTags = [
+export const svgTags = /** @type {const} */ ([
   // The <a> SVG element creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.
   'a',
   // This element implements the SVGAnimateElement interface.
@@ -410,7 +410,7 @@ export const svgTags = [
   'use',
   // A view is a defined way to view the image, like a zoom level or a detail view.
   'view',
-]
+])
 
 export const tags = [...headTags, ...bodyTags, ...svgTags]
 
