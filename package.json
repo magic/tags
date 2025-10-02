@@ -33,7 +33,7 @@
   "bugs": {
     "url": "https://github.com/magic/tags/issues"
   },
-  "main": "src/index.mjs",
+  "main": "src/index.js",
   "devDependencies": {
     "@magic-modules/light-switch": "0.0.12",
     "@magic-modules/no-spy": "0.0.9",

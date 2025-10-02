@@ -1,5 +1,5 @@
 import { is } from '@magic/test'
-import { bodyTags, headTags, svgTags, tags } from '../src/index.mjs'
+import { bodyTags, headTags, svgTags, tags } from '../src/index.js'
 
 const headTagCount = 6
 // -1 for <var>

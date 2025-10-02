@@ -1,6 +1,6 @@
 import { version } from '@magic/test'
 
-import { tags } from '../src/index.mjs'
+import { tags } from '../src/index.js'
 
 const spec = {
   bump: 'fn',
