@@ -93,6 +93,12 @@ update dependencies
 
 update dependencies
 
-##### 0.0.13 - unreleased
+##### 0.0.13
+
+- add types
+- fix test/spec
+- update dependencies
+
+##### 0.0.14 - unreleased
 
 ...
