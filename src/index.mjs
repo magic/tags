@@ -12,6 +12,7 @@ export const selfClosing = [
   'embed', //  - It is used to embed external content on the webpage
   'hr', //  - It creates a horizontal line
   'img', //  - It is used to define an image
+  'input', //  - It is used to create input fields in forms
   'link', //  - It is mostly used to add external stylesheets to the HTML document
   'meta', //  - It is used to give metadata to the webpage
   'param', //  - It defines parameter to the object
@@ -85,6 +86,8 @@ export const bodyTags = [
   'em',
   // Represents external application or interactive content. The embed tag was introduced in HTML5 (although browsers have supported it since long before HTML5).
   'embed',
+  // Represents a fenced frame for embedded content with enhanced privacy. This is a newer HTML element.
+  'fencedframe',
   // Represents a fieldset
   'fieldset',
   // Represents caption for the 'code',figure'/code', element. The figcaption tag is new in HTML5.
@@ -138,6 +141,10 @@ export const bodyTags = [
   'map',
   // Represents marked text. This tag was introduced in HTML5.
   'mark',
+  // Represents a MathML mathematical expression
+  'math',
+  // Represents a menu of commands
+  'menu',
   // Represents measurement within a predefined range. This element is new in HTML5.
   'meter',
   // Represents navigation links. This tag was introduced in HTML5.
@@ -158,6 +165,8 @@ export const bodyTags = [
   'p',
   // Represents a parameter for an object
   'param',
+  // Represents a picture element for responsive images
+  'picture',
   // Represents preformatted text
   'pre',
   // Represents progress of a task of any kind. This element was introduced in HTML5.
@@ -180,10 +189,16 @@ export const bodyTags = [
   'samp',
   // Represents a script
   'script',
+  // Represents a search functionality container. This is a newer HTML element.
+  'search',
   // Represents a section. This tag is new in HTML5.
   'section',
   // Represents a selectable list
   'select',
+  // Represents the selected content inside a select element. This is a newer element.
+  'selectedcontent',
+  // Represents a slot in web components for shadow DOM
+  'slot',
   // Represents small text
   'small',
   // Represents media resources. This HTML element is new in HTML5.
