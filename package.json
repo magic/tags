@@ -20,7 +20,8 @@
     "calls": "calls"
   },
   "files": [
-    "src"
+    "src",
+    "types"
   ],
   "engines": {
     "node": ">=14.15.4"
@@ -34,6 +35,7 @@
     "url": "https://github.com/magic/tags/issues"
   },
   "main": "src/index.js",
+  "types": "types/index.d.ts",
   "devDependencies": {
     "@magic-modules/light-switch": "0.0.12",
     "@magic-modules/no-spy": "0.0.9",
