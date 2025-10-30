@@ -99,6 +99,10 @@ update dependencies
 - fix test/spec
 - update dependencies
 
-##### 0.0.14 - unreleased
+##### 0.0.14
+
+- update dependencies
+
+##### 0.0.15 - unreleased
 
 ...
