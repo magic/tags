@@ -17,7 +17,9 @@
     "dev": "magic dev --watch src",
     "format": "f -w --exclude docs",
     "test": "t --exclude docs example config.js",
-    "calls": "calls"
+    "calls": "calls",
+    "tsc": "tsc --noEmit",
+    "check": "npm run tsc"
   },
   "files": [
     "src",
