@@ -107,6 +107,10 @@ update dependencies
 
 - update dependencies
 
-##### 0.0.16 - unreleased
+##### 0.0.16
+
+- update dependencies
+
+##### 0.0.17 - unreleased
 
 ...
