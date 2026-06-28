@@ -16,7 +16,7 @@
     "serve": "magic serve",
     "dev": "magic dev --watch src",
     "format": "f -w --exclude docs",
-    "test": "t --exclude docs example config.js",
+    "test": "t --exclude docs docsrc example config.js",
     "calls": "calls",
     "tsc": "tsc --noEmit",
     "check": "npm run tsc"
